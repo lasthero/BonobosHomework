@@ -15,7 +15,7 @@ This solution consists of 2 projects residing at 2 respective directories:
  # Build Instructions
  - API project: in the project directory, type "bundle install" to make sure all project dependencies are updated or installed; then type "rails server" to build the project. The project will be listening on port 3000 after it is built sucessfully. Test the API by going to http://localhost:3000/products. 
 
- - WebUI project: Make sure API project is running then in theproject directory, type "npm start". The web site will be displayed at http://localhost:3001/
+ - WebUI project: Make sure API project is running then in theproject directory, type "npm install" to install required project dependencies. Then type "npm start". The web site will be displayed at http://localhost:3001/
 
  # Future Improvements 
   - Implement filtering and sorting on product inventories on the web page.
