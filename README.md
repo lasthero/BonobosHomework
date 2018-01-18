@@ -23,3 +23,4 @@ This solution consists of 2 projects residing at 2 respective directories:
   - Normalize database table "product_inventories" to remove redundant data at "style" column.
   - Implement full CRUD operations at both API and WebUI projects.
   - Add unit tests on both projects.
+  - Currently both project are built in development environments. Production build scripts and pipelines need to be created for production deployments.
