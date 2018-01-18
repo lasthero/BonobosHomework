@@ -1,0 +1,39 @@
+{
+  "name": "product-inventory-webui",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "babel-node tools/server.js"
+  },
+  "author": "Chih-Ho Chou",
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "bootstrap": "3.3.6",
+    "jquery": "2.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.8.0",
+    "babel-core": "6.26.0",
+    "babel-eslint": "^8.1.2",
+    "babel-loader": "6.2.4",
+    "babel-plugin-react-display-name": "2.0.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.5.0",
+    "babel-preset-react-hmre": "1.1.1",
+    "babel-register": "6.26.0",
+    "compression": "1.6.1",
+    "css-loader": "^0.28.9",
+    "eventsource-polyfill": "0.9.6",
+    "extract-text-webpack-plugin": "1.0.1",
+    "express": "4.13.4",
+    "file-loader": "0.8.5",
+    "less-loader": "^4.0.5",
+    "open": "0.0.5",
+    "style-loader": "^0.19.1",
+    "url-loader": "0.5.7",
+    "webpack": "1.13.0",
+    "webpack-dev-middleware": "1.6.1",
+    "webpack-hot-middleware": "2.10.0"
+  }
+}
